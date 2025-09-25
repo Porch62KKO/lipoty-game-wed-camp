@@ -2,7 +2,7 @@ function PlayGame(){
     userInput = document.getElementById("user-input").value
     console.log(userInput)
     
-    botInput = Math.florr((Math.random() * 100) %3)
+    botInput = Math.floor((Math.random() * 100) %3)
     console.log(botInput)
 
     // ค้อน : 0
@@ -24,7 +24,5 @@ function PlayGame(){
         console.log("User win")
     } else {
         console.log("Bot win")
-    }
-        
-
+    }    
 }
